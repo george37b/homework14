@@ -115,3 +115,67 @@ main {
     margin-top: 125px;
   }
 }
+// for tablet
+@media (max-width: 768px) {
+  main {
+    padding: 0px 100px;
+    .main-content {
+      flex-direction: column;
+      margin-top: 75px;
+      .text-wrapper {
+        text-align: center;
+        .lorem {
+          margin: auto;
+        }
+        .buttons {
+          width: 500px;
+          margin: auto;
+          column-gap: 50px;
+          margin-bottom: 37px;
+        }
+        .download-our-app {
+          margin: auto;
+        }
+      }
+      .buttons2 {
+        width: 260px;
+        margin: auto;
+      }
+    }
+    .dodge {
+      width: 550px;
+      margin-top: 50px;
+    }
+  }
+}
+// for phone
+@media (max-width: 500px) {
+  main {
+    padding: 0px 20px;
+
+    .main-content {
+      .text-wrapper {
+        .Revolutionary-text {
+          width: 400px;
+          font-size: 45px;
+          margin: auto;
+        }
+        .lorem {
+          margin: auto;
+          width: 400px;
+          font-size: 17px;
+        }
+        .buttons {
+          column-gap: 25px;
+          width: 450px;
+        }
+        .download-our-app {
+          width: 356px;
+        }
+      }
+    }
+    .dodge {
+      width: 464px;
+    }
+  }
+}
