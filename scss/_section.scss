@@ -1,0 +1,104 @@
+.background {
+  width: 100%;
+  min-height: 526px;
+  display: flex;
+  .dodge-background {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .dodge-svg {
+      width: 735px;
+      height: 526px;
+    }
+    .background {
+      width: 100%;
+      position: absolute;
+    }
+  }
+  .text {
+    margin: auto;
+    .crypto-wallet {
+      color: #000000;
+      font-size: 50px;
+      width: 544px;
+      height: 75px;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 31px;
+    }
+    .lorem2 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #000000;
+      width: 446px;
+      height: 139px;
+      line-height: 20px;
+      text-align: center;
+      margin: auto;
+    }
+    .Learn-more-btn {
+      width: 213px;
+      height: 48px;
+      border-radius: 5px;
+      color: #ffffff;
+      background-color: #000000;
+      padding: 16px 65px;
+      font-size: 16px;
+      position: relative;
+      display: flex;
+      margin: auto;
+    }
+  }
+}
+// for tablet
+@media (max-width: 768px) {
+  .background {
+    .dodge-background {
+      .dodge-svg {
+        width: 200px;
+      }
+    }
+    .text {
+      .crypto-wallet {
+        font-size: 25px;
+        height: 20px;
+      }
+      .lorem2 {
+        height: 80px;
+        font-size: 12px;
+        line-height: 15px;
+      }
+      .Learn-more-btn {
+        width: 155px;
+        height: 34px;
+        padding: 5px 40px;
+        font-size: 13px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .background {
+    .dodge-background {
+      .dodge-svg {
+        width: 130px;
+      }
+    }
+    .text {
+      .crypto-wallet {
+        font-size: 18px;
+        height: 8px;
+        width: 350px;
+      }
+      .lorem2 {
+        font-size: 12px;
+        line-height: 10px;
+        width: 245px;
+      }
+    }
+  }
+}
