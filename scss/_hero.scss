@@ -7,6 +7,8 @@ main {
     width: 100%;
     height: 100%;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 150px;
 
@@ -30,7 +32,11 @@ main {
         margin-bottom: 34px;
       }
       .buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
         column-gap: 20px;
         margin-bottom: 37px;
 
@@ -45,6 +51,8 @@ main {
           box-shadow: 2px 1px 7px -1px rgba(0, 0, 0, 0.76);
           -webkit-box-shadow: 2px 1px 7px -1px rgba(0, 0, 0, 0.76);
           -moz-box-shadow: 2px 1px 7px -1px rgba(0, 0, 0, 0.76);
+          -webkit-transition: 0.7s;
+          -o-transition: 0.7s;
           transition: 0.7s;
           &:hover {
             scale: 1.1;
@@ -63,6 +71,8 @@ main {
           box-shadow: 2px 1px 7px -1px rgba(0, 0, 0, 0.76);
           -webkit-box-shadow: 2px 1px 7px -1px rgba(0, 0, 0, 0.76);
           -moz-box-shadow: 2px 1px 7px -1px rgba(0, 0, 0, 0.76);
+          -webkit-transition: 0.7s;
+          -o-transition: 0.7s;
           transition: 0.7s;
           &:hover {
             scale: 1.1;
@@ -79,7 +89,11 @@ main {
       }
     }
     .buttons2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-column-gap: 22px;
+      -moz-column-gap: 22px;
       column-gap: 22px;
 
       .google-play-icon {
@@ -88,9 +102,15 @@ main {
         border-radius: 7px;
         border: 1px solid #000000;
         font-size: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         font-size: 12px;
+        -webkit-column-gap: 5px;
+        -moz-column-gap: 5px;
         column-gap: 5px;
         padding: 0px 8px;
         font-weight: 600;
@@ -101,9 +121,15 @@ main {
         height: 40px;
         border-radius: 7px;
         border: 1px solid #000000;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         font-size: 12px;
+        -webkit-column-gap: 5px;
+        -moz-column-gap: 5px;
         column-gap: 5px;
         padding: 0px 12px;
         color: #000000;
@@ -151,7 +177,7 @@ main {
 // for phone
 @media (max-width: 500px) {
   main {
-    padding: 0px 20px;
+    padding: 0px 15px;
 
     .main-content {
       .text-wrapper {
@@ -175,7 +201,7 @@ main {
       }
     }
     .dodge {
-      width: 464px;
+      width: 450px;
     }
   }
 }

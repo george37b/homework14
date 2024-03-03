@@ -126,5 +126,6 @@ a {
   text-decoration: none;
 }
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }

@@ -3,20 +3,11 @@
 @import "./header";
 @import "./hero";
 @import "./section";
-@import "./slick.scss";
+@import "./form-section";
+@import "./footer";
+@import "./style";
+@import "./slick";
 
 body {
   font-family: "Roboto", sans-serif;
-}
-.slider {
-  display: flex;
-}
-.slider .slider_item {
-  width: 350px;
-  height: 250px;
-  margin: 30px;
-}
-.slider .slider_item img {
-  display: block;
-  object-fit: cover;
 }
