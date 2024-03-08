@@ -24,9 +24,9 @@ header {
     -moz-column-gap: 100px;
     column-gap: 100px;
     font-size: 16px;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
     a {
       color: #ffffff;
       &:hover {
@@ -52,19 +52,9 @@ header {
     justify-content: center;
     font-size: 15px;
     border: none;
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: -webkit-transform 0.5s;
-    -o-transition: transform 0.5s;
-    transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s;
-    &:hover {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      opacity: 1.5;
-    }
   }
 }
+
 // for tablet
 @media (max-width: 768px) {
   header {

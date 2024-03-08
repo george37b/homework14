@@ -2,13 +2,13 @@ $(function () {
   $(".multiple-items").slick({
     infinite: true,
     // რამდენი სურათი გამოჩნდეს
-    slidesToShow: 3,
+    slidesToShow: 1,
     // სლაიდის დროს რამდენი ელემნტით გადავიდეს
     slidesToScroll: 1,
     // რომ გამოჩნდეს ღილაკები
     arrows: true,
     // რომ გამოჩნდეს ბურთულები
-    dots: false,
+    dots: true,
     // responsiv-ის კოდი
     responsive: [
       {

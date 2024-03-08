@@ -1,0 +1,133 @@
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 50px;
+  -moz-column-gap: 50px;
+  column-gap: 50px;
+  margin-top: 150px;
+  .ct {
+    width: 400px;
+    height: 100%;
+    padding: 0px 0px 15px;
+    -webkit-transition: scale 0.5s;
+    -o-transition: scale 0.5s;
+    transition: scale 0.5s;
+    &:hover {
+      scale: 1.1;
+    }
+    .CT200H {
+      font-size: 20px;
+      color: #969696;
+      font-weight: 600;
+    }
+    .day- {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      .day {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 10px;
+      }
+      .span {
+        font-size: 18px;
+        font-weight: 500;
+        color: #969696;
+      }
+    }
+    .jakarta {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-column-gap: 8px;
+      -moz-column-gap: 8px;
+      column-gap: 8px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      .jak {
+        font-size: large;
+        font-weight: 500;
+        color: #969696;
+      }
+    }
+    .rent-btn {
+      color: #737373;
+      border: 2px solid #737373;
+      background-color: #ffffff;
+      padding: 20px 120px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 400px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-transition: color, background 0.7s;
+      -o-transition: color, background 0.7s;
+      transition: color, background 0.7s;
+      &:hover {
+        background: #f55757;
+        color: #ffffff;
+      }
+    }
+    .jaguar {
+      font-size: 20px;
+      color: #969696;
+      font-weight: 600;
+    }
+  }
+}
+.See-all-btn {
+  background-color: red;
+  color: #ffffff;
+  padding: 20px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 116px;
+  margin: 50px auto;
+  height: 57px;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  -o-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+}
+// For tablet
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+// For Phone
+@media (max-width: 500px) {
+  .cards {
+    gap: 20px;
+  }
+}
